@@ -10,6 +10,10 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import { StudentHeaderComponent } from './student/student-header/student-header.component';
+import { StudentFooterComponent } from './student/student-footer/student-footer.component';
+import { StudentSidebarComponent } from './student/student-sidebar/student-sidebar.component';
+import { TutorsComponent } from './student/tutors/tutors.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import {MatCardModule} from '@angular/material/card';
     SignupComponent,
     HomeComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    StudentHeaderComponent,
+    StudentFooterComponent,
+    StudentSidebarComponent,
+    TutorsComponent
   ],
   imports: [
     BrowserModule,
