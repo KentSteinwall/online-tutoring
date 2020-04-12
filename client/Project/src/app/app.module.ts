@@ -14,6 +14,10 @@ import { StudentHeaderComponent } from './student/student-header/student-header.
 import { StudentFooterComponent } from './student/student-footer/student-footer.component';
 import { StudentSidebarComponent } from './student/student-sidebar/student-sidebar.component';
 import { TutorsComponent } from './student/tutors/tutors.component';
+import { ScheduleComponent } from './student/schedule/schedule.component';
+import { RouterModule } from '@angular/router';
+import { ClassroomComponent } from './student/classroom/classroom.component';
+import { BillingComponent } from './student/billing/billing.component';
 
 @NgModule({
   declarations: [
@@ -26,13 +30,18 @@ import { TutorsComponent } from './student/tutors/tutors.component';
     StudentHeaderComponent,
     StudentFooterComponent,
     StudentSidebarComponent,
-    TutorsComponent
+    TutorsComponent,
+    ScheduleComponent,
+    ClassroomComponent,
+    BillingComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
